@@ -1,0 +1,54 @@
+# Node.js dependencies (si usas npm o yarn)
+node_modules/
+
+# Dependencias de Composer
+/vendor/
+
+# Archivos de entorno (contienen credenciales)
+.env
+.env.*  # Si tienes archivos de entorno adicionales
+
+# Caché y logs
+/storage/*.key
+/storage/*.log
+/storage/framework/*
+/storage/logs/*
+/storage/debugbar/
+
+# Sesiones y caché de Laravel
+/bootstrap/cache/
+
+# Archivos de IDEs (Visual Studio Code, JetBrains, etc.)
+.vscode/
+.idea/
+
+# Archivos de compilación de npm/yarn
+npm-debug.log
+yarn-error.log
+public/hot
+public/storage
+public/mix-manifest.json
+public/css/
+public/js/
+
+# Archivos generados por Laravel Mix
+/public/mix-manifest.json
+/public/hot
+/public/build/
+
+# SQLite database (si usas SQLite en local)
+database/*.sqlite
+database/*.sqlite3
+
+# Otros archivos temporales
+*.log
+*.cache
+*.DS_Store
+*.bak
+*.swp
+*.swo
+
+# Ignorar todo dentro de storage excepto storage/app/public
+/storage/*
+!/storage/app
+!/storage/app/public
